@@ -35,5 +35,12 @@ class Song
       binding.pry
   end 
   
+   def self.artist_count
+    artist_count = Hash.new(0)
+    @@artists.map { |artist| artist_count[artist] += 1 }
+      genre_count
+      binding.pry
+  end
+  
   
 end 
