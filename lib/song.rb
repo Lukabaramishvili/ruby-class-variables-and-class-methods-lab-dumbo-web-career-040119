@@ -32,7 +32,7 @@ class Song
     genre_count = Hash.new(0)
     @@genres.map { |genre| genre_count[genre] += 1 }
       genre_count
-      binding.pry
+      # binding.pry
   end 
   
    def self.artist_count
