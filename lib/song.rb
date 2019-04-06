@@ -20,8 +20,8 @@ class Song
     @@count
   end 
 
-def self.genres 
-  @@genres = []
+def self.artists 
+  @@artists.uniq
 end 
   
 end 
