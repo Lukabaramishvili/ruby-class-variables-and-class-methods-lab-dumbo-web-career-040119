@@ -1,12 +1,13 @@
 class Song 
   
-  
+  @@count += 1 
+  @@artists = []
+  @@genres = []
+
   attr_accessor :name, :artist, :genre
   
   def initialize(name, artist, genre)
-    @@count += 1 
-    @@artists = []
-    @@genres = []
+
   end 
   
   def self.count
