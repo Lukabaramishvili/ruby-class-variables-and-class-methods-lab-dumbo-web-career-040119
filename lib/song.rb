@@ -16,6 +16,6 @@ class Song
     @@count
   end 
 
-  def name
+  # def name
   
 end 
