@@ -39,7 +39,6 @@ class Song
     artist_count = Hash.new(0)
     @@artists.map { |artist| artist_count[artist] += 1 }
       artist_count
-      binding.pry
   end
   
   
